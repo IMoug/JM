@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: navy;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: navy;
+}
+
+hr {
+  border: 5px solid navy;
+}
+
+.surgiu2 {
+  width: 50%;
+  display: flex;
+}
+
+.img-loja {
+  width: 500px;
+  padding: 50px;
+  margin-top: 0;
+}
+
+.div-surgiu {
+  display: flex;
+}
+
+.div-surgiu2 {
+  display: inline-block;
+}
+
+.img-teclado {
+  width: 450px;
+}
+
+.surgiu3 {
+  display: inline-block;
+  width: 50%;
+  padding-left: 100px;
+}
+
+.local {
+  text-align: center;
+}
+
+.rodape {
+  background: linear-gradient(#ffffff, #969595);
+  padding: 2rem;
+}
+
+.rodape p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #051eaa !important;
+}
+
+.posicao-icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icones {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icone-instagram,
+.icone-facebook {
+  width: 28px;
+  padding: 5px;
+}
+
+.icone-instagram,
+.icone-facebook:hover {
+  cursor: pointer;
+}
